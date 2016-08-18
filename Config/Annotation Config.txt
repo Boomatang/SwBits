@@ -1,0 +1,81 @@
+# Author: James Fitzpatrick
+
+# This config file is for setting up the layers for which the Drafting standards will be set.
+# This File has been set up to work with Solidworks 2013. 
+# It may work with others but this may not be the case.
+
+# All the settings here are not designed to replace the buildin darfting standards.
+# Its use is to help fix misstakes with what layers have been assigned to the annotations.
+
+# Comments are marked with the # and are ingored at runtime.
+
+# The following block will set the top level layer for that group. 
+# This section is run first and allows the user set all layers.
+# Doing this allows the spific drafting standards to be set afterwards.
+
+# The main layers that have been set in this config file are designed to
+# used with the "layers config" and the marco that was used to set them up.
+
+# ~~~~~~~~ Main Layers ~~~~~~~~~~
+# Please do not uncomment any of the values here.
+# These get set every time the config runs
+
+Annotations: NOTES
+Dimensions: DIMENSION
+Centerlines/Center Marks: CENTER
+Tables: FORMAT
+View Labels: FORMAT
+
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+# This sections lets you set the layer for spific elements
+
+# ~~~~~~~~ Annotations ~~~~~~~~~~
+# Uncomment any layer type you wish to set 
+
+Ballons: FORMAT
+#Datums: FORMAT
+#Geometric Tolerances: FORMAT
+#Notes: FORMAT
+#Revision Clouds: FORMAT
+#Surface Finishes: FORMAT
+#Weld Symbols: FORMAT
+
+# ~~~~~~~~ Dimensions ~~~~~~~~~~
+# Uncomment any layer type you wish to set 
+
+#Angle: FORMAT
+#Arc Length: FORMAT
+#Chamfer: FORMAT
+#Diameter: FORMAT
+#Hole Callout: FORMAT
+#Liner: FORMAT
+#Ordinate: FORMAT
+#Radius: FORMAT
+
+# ~~~~~~~~ Centerlines/Center Marks ~~~~~~~~~~
+# Uncomment any layer type you wish to set 
+
+#Centerlines: FORMAT
+#Center Mark: FORMAT
+
+# ~~~~~~~~ Tables ~~~~~~~~~~
+# Uncomment any layer type you wish to set 
+
+#Bend: FORMAT
+#Bill of Materials: FORMAT
+#General: FORMAT
+#Hole: FORMAT
+#Punch: FORMAT
+#Revision: FORMAT
+#Weld: FORMAT
+
+# ~~~~~~~~ View Labels ~~~~~~~~~~
+# Uncomment any layer type you wish to set 
+
+#Auxiliary: FORMAT
+#Detail: FORMAT
+#Section: FORMAT
+#Orthographic: FORMAT
+
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
