@@ -1,0 +1,30 @@
+# Author: James Fitzpatrick
+
+# This is the config file for setting up Layers in Soldworks.
+# Currently this file has been desidned to work with the Soldworks 2013 API
+# When this file is been loaded the layers will get created in order in which they appear
+# Blank lines and lines commented with # are ingored
+
+# Please use only one TAB to saprate the values 
+# Below is an example of the format that is to be used.
+# The example has been tab more than once to allow it gto be clearly seen.
+# ~~~~~ EXAMPLE ~~~~~
+# Name	Description				Color		Style 	Width
+# DIM	Standard Dimensions		16711680	0		0
+# ~~~~~~~~~~~~~~~~~~~
+
+# Here is a description of the feilds and the values that are allowed
+# Name = This is the name for the layer and should be a string. SPACES are allowed by Soldworks
+# Description = This is the description of the layer that is been created. Its used to help others understand your style
+# Color = This is a black art of the color that is been used. I have no idea where the number for the color comes from.
+# Style = This is the style of the line. The zero is the standard solid line
+# Width = How heavy the line is to be displayed as.
+
+
+# Layers
+DIMENSION	Standard Dimensions.	16711680	0	0
+CENTER	To display center lines.	4227072	4	0
+NOTES	Layer that notes will be placed on.	0	0	0
+
+# The FORMAT layer is added to protect existing details in drawings.
+FORMAT	Soldworks Default Layer	0	0	0
