@@ -1,6 +1,0 @@
-1. get layers working for notes
-2. sort a better way of doing the config file paths
-3. add extra default layers to the config file
-4. get the layers working for more that the notes and dim's
-5. see if you can work with google docs with VBA. This could open the gate way for a drawing number populate type function.
-6. Add warns about the sheets not been opened.
