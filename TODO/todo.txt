@@ -1,6 +1,6 @@
 1. get layers working for notes
 2. sort a better way of doing the config file paths
-3. add extra default layers to the config file			- Done
+
 4. get the layers working for more that the notes and dim's
 5. Add warnings about the sheets not been opened.
 6. Reset the active sheet back to the first sheet.

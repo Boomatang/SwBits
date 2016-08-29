@@ -25,8 +25,8 @@
 DIMENSION	Standard Dimensions.	16711680	0	0
 CENTER	To display center lines.	4227072	4	0
 NOTES	Layer that notes will be placed on.	0	0	0
-RED SOLID	A red layer that is red	555	0	0
-RED DASH	Red dashed line	555	2	0
+RED SOLID	A red layer that is red	255	0	0
+RED DASH	Red dashed line	255	1	0
 
 
 
