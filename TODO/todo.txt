@@ -8,4 +8,7 @@
 8. A marco to save out the PDF's that takes the title and revison from the sheet to make the required file name. 
 9. Get the numbers for the for the line types
 10. Get some default color codes
-
+11. Function to remove the centre lines
+12. Function to change views to solid line view && set child views to be same as parent?
+13. Is it possible to load a ballon style
+14. Function to remove all the liner dims from a give view only
