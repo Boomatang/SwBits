@@ -2,7 +2,7 @@
 2. sort a better way of doing the config file paths
 
 4. get the layers working for more that the notes and dim's
-5. Add warnings about the sheets not been opened.
+5. Add warnings about a Drawing not been opened.
 6. Reset the active sheet back to the first sheet.
 7. See if you can work with google docs with VBA. This could open the gate way for a drawing number populate type function.
 8. A marco to save out the PDF's that takes the title and revison from the sheet to make the required file name. 
@@ -12,3 +12,6 @@
 12. Function to change views to solid line view && set child views to be same as parent?
 13. Is it possible to load a ballon style
 14. Function to remove all the liner dims from a give view only
+
+16. Resize section view fonts
+17. Remove dangling elements
