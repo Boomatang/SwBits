@@ -12,26 +12,22 @@ The main function to be ran is called main. There is a number of things that wil
 
 The macro is by far not finished and there is may issue that still need to be fixed. Below is a list of annotation it currently will work with.
 
-<<<<<<< HEAD
-=======
+
 ## Setup
 When setting up the macros there is one module that will need to be edited. This contains the path  to where the config files are stored. The module that is required to be edited is "Config_Docs" and the path that is need to be changed is in the function "configFolderPath" which should still be the very first function. This will need to point to where you store the config files.
 
 In Solidworks its self you will need to set a customs launcher that calls the main method. It may be best to set up your own command tab to hold the marcos. 
 
->>>>>>> refs/remotes/origin/master
+
 ## Version
 
 ### V0.2
 - More default layers added.
 - Center Lines get placed on the configured layer.
-<<<<<<< HEAD
-=======
 - New functions added to help with the config file path.
->>>>>>> refs/remotes/origin/master
 
 ### V0.1
 - Dimensions, it will change all types of dimensions to the same layer. There function to distinguee between dimensions is not there yet.
 
 ## To conclude
-As you may see there is a lot of annotation's missing as of yet but it is a depth rabbit hole trying to find ID numbers for the annotation's
+This macro has been saving time from V0.1, hopefully going forward it saves more time and gives better results. There is a lot of required methods missing fromt the macro but giver it time.

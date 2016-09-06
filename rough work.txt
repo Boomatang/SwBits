@@ -1,40 +1,4 @@
-sub UpdateCenterLines()
-  elements = sheetCenterLines()
-  
-  for e in elements
-    call changeCenterLineLayer(e)
-  next
-End Sub
+# Rough Work
+Here the idea is just to plan out what the steps are to do some task. This file can be deleted at any time and should not hold real code.
 
-function sheetCenterLines() as variant
-  counter =0
-  take in the current sheet obj#
-  get all the elements 
-  
-  for e in elements
-    if the element is a center line
-      counter = counter + 1
-    end if
-  next
-  
-  redim values as var[counter]
-  counter = 0
-  
-  for e in elements
-    if the e is a center line
-      value[counter] = e
-      counter = counter + 1
-    end if
-  next
-  
-  sheetCenterLines = vlaue
-
-end funnction
-  
-sub changeCenterLineLayer(element as obj)
-
-  set layers = getlayers()
-  
-  elememt.Layer = layers(8)(2) ' these numbers are not right check them
-  
-end Sub
+############### Rough Work Below ###################
