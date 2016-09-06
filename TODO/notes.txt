@@ -1,0 +1,3 @@
+There is just some error and problem that I believe will happen
+
+1. The configFolerPath function won't be able to get the path from which the macro was loaded but only the path of the drawing that it was called from. One way to get around this would be to load the config files into a folder that is on every computer. This for example could be "C:\Users\Default\AppData\Local" or some thing like that.

@@ -25,6 +25,10 @@
 DIMENSION	Standard Dimensions.	16711680	0	0
 CENTER	To display center lines.	4227072	4	0
 NOTES	Layer that notes will be placed on.	0	0	0
+RED SOLID	A red layer that is red	255	0	0
+RED DASH	Red dashed line	255	1	0
+
+
 
 # The FORMAT layer is added to protect existing details in drawings.
 FORMAT	Soldworks Default Layer	0	0	0

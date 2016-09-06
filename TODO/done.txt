@@ -1,0 +1,2 @@
+3. add extra default layers to the config file			- Done
+15. Get layers changing on center lines					- Done

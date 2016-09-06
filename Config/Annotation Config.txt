@@ -51,12 +51,12 @@ Ballons: FORMAT
 #Hole Callout: FORMAT
 #Liner: FORMAT
 #Ordinate: FORMAT
-#Radius: FORMAT
+#Radius: FORMATrr
 
 # ~~~~~~~~ Centerlines/Center Marks ~~~~~~~~~~
 # Uncomment any layer type you wish to set 
 
-#Centerlines: FORMAT
+Centerlines: CENTER
 #Center Mark: FORMAT
 
 # ~~~~~~~~ Tables ~~~~~~~~~~
