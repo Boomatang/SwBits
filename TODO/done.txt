@@ -1,3 +1,4 @@
 3. add extra default layers to the config file			- Done
 15. Get layers changing on center lines					- Done
 2. sort a better way of doing the config file paths		- Done (It is only done to a small bit  better way.)
+11. Function to remove the centre lines 				- Done plus it removes center marks
