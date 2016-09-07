@@ -1,3 +1,5 @@
 There is just some error and problem that I believe will happen
 
 1. The configFolerPath function won't be able to get the path from which the macro was loaded but only the path of the drawing that it was called from. One way to get around this would be to load the config files into a folder that is on every computer. This for example could be "C:\Users\Default\AppData\Local" or some thing like that.
+
+2. This is for point 18 in the todo list. I might like it to change all items to the config file layers the first time that the macro runs. This would mean that you first run the marco to get the layers you required and then run it again at the end to insure that all elements are on the right layer. If in this case you have changed some thig to a layer then these would be on touched. I have come across reasons for needing this but I can see other issue with this function.
