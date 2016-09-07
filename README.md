@@ -21,7 +21,7 @@ In Solidworks its self you will need to set a customs launcher that calls the ma
 
 ## Version
 
-### DEV
+### V0.2.1
 - Added function to remove center lines and center marks for all sheets in a drawing.
 
 ### V0.2
